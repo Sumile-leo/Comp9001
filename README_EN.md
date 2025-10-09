@@ -87,7 +87,8 @@ Comp9001/
 │   ├── Q1.py                # Matrix Multiplication
 │   ├── Q2.py                # Pig Latin Translator
 │   ├── Q3.py                # Family Tree (Person Class)
-│   └── Q4.py                # Manhattan Movement Game
+│   ├── Q4.py                # Manhattan Movement Game
+│   └── Q5.py                # Vigenère Cipher Encryption/Decryption Program
 │
 └── README.md                 # Chinese Version README
 ```
@@ -228,6 +229,30 @@ Output:
 1 5 10 10 5 1
 ```
 
+#### Run Vigenère Cipher Program
+```bash
+cd "Week 9 Challenges"
+python Q5.py -e
+```
+Input:
+```
+Key: helloworld
+Plaintext: The quick brown fox jumps over the lazy dog.
+```
+Output:
+```
+Ciphertext: Alp bieqb muvay qct xlxsz sgpf pvv wdgc ozu.
+```
+
+Grouped output example:
+```bash
+python Q5.py -e -g 5
+```
+Output:
+```
+Ciphertext: ALPBI EQBMU VAYQC TXLXS ZSGPF PVVWD GCOZU
+```
+
 ## 💡 Key Skills Learned
 
 Through completing these assignments and exercises, the following Python programming skills were systematically mastered:
@@ -251,6 +276,9 @@ Through completing these assignments and exercises, the following Python program
 - ✅ Algorithm optimization and complexity analysis
 - ✅ Advanced data structure applications
 - ✅ Game logic design
+- ✅ Cryptographic algorithm implementation (Vigenère cipher)
+- ✅ Character encoding and conversion
+- ✅ Error precedence handling
 
 ### Software Engineering Practices
 - ✅ Modular code design
