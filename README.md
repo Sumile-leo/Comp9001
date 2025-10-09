@@ -94,7 +94,8 @@ Comp9001/
 │   ├── Q1.py                # 矩阵乘法
 │   ├── Q2.py                # Pig Latin翻译器
 │   ├── Q3.py                # 家族树类（Person类）
-│   └── Q4.py                # 曼哈顿移动游戏
+│   ├── Q4.py                # 曼哈顿移动游戏
+│   └── Q5.py                # Vigenère密码加密解密程序
 │
 └── README.md                 # 本文件
 ```
@@ -235,6 +236,30 @@ python Q1.py 5
 1 5 10 10 5 1
 ```
 
+#### 运行Vigenère密码程序
+```bash
+cd "Week 9 Challenges"
+python Q5.py -e
+```
+输入：
+```
+密钥: helloworld
+明文: The quick brown fox jumps over the lazy dog.
+```
+输出：
+```
+密文: Alp bieqb muvay qct xlxsz sgpf pvv wdgc ozu.
+```
+
+分组输出示例：
+```bash
+python Q5.py -e -g 5
+```
+输出：
+```
+密文: ALPBI EQBMU VAYQC TXLXS ZSGPF PVVWD GCOZU
+```
+
 ## 💡 主要技能点
 
 通过完成这些作业和练习，系统掌握了以下Python编程技能：
@@ -258,6 +283,9 @@ python Q1.py 5
 - ✅ 算法优化和复杂度分析
 - ✅ 数据结构高级应用
 - ✅ 游戏逻辑设计
+- ✅ 密码学算法实现（Vigenère密码）
+- ✅ 字符编码和转换
+- ✅ 错误优先级处理
 
 ### 软件工程实践
 - ✅ 模块化代码设计
